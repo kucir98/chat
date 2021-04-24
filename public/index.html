@@ -1,0 +1,38 @@
+<html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="css/style.css"/>
+		<title>Grupowy Projekt Czat</title>
+	</head>
+	<body>
+		<div class="join-container">
+			<header class="join-header">
+				<h1>Grupowy Projekt Czat</h1>
+			</header>
+			<main class="join-main">
+				<form action="chat.html">
+					<div class="form-control">
+						<label for="username" class=""> Nazwa użytkownika</label>
+						<input
+							type="text"
+							name="username"
+							id="username"
+							placeholder="Enter username..."
+							required
+						/>
+					</div>
+					<div class="form-control">
+						<label for="room">Pokój</label>
+						<select name="room" id="room">
+							<option value="Pokój Błażeja">Pokój Błażeja</option>
+							<option value="Pokój Adriana">Pokój Adriana</option>
+							<option value="Pokój Joanny">Pokój Joanny</option>
+						</select>
+					</div>
+					<button type="submit" class="btn">Dołącz</button>
+				</form>
+			</main>
+		</div>
+	</body>
+</html>
